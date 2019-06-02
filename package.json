@@ -1,0 +1,25 @@
+{
+  "name": "video-snapshot",
+  "version": "1.0.0",
+  "description": "Capture video snapshot",
+  "main": "src/index.js",
+  "repository": "github:ciffelia/video-snapshot",
+  "author": "Ciffelia <mc.prince.0203@gmail.com> (https://ciffelia.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/ciffelia/video-snapshot#readme",
+  "bugs": "https://github.com/ciffelia/video-snapshot/issues",
+  "private": true,
+  "scripts": {
+    "test": "standard",
+    "fix": "standard --fix",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.13.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "envs": ["browser"],
+    "globals": ["GM_registerMenuCommand"]
+  }
+}
