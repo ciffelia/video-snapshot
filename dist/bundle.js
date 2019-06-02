@@ -40,11 +40,7 @@
   const capture = () => {
     const video = document.querySelector('video');
 
-    console.log(video);
-
     const canvas = createCanvasFromVideo(video);
-
-    console.log(canvas);
 
     canvas.toBlob(blob => {
       downloadBlob(blob, 'snapshot.png');
