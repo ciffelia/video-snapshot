@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         video-snapshot
 // @namespace    https://ciffelia.com/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Capture video snapshot
 // @author       Ciffelia <mc.prince.0203@gmail.com> (https://ciffelia.com/)
 // @license      MIT

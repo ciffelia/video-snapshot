@@ -1,6 +1,6 @@
 {
   "name": "video-snapshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capture video snapshot",
   "main": "src/index.js",
   "repository": "github:ciffelia/video-snapshot",
