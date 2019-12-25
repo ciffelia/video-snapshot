@@ -10,9 +10,9 @@
   "bugs": "https://github.com/ciffelia/video-snapshot/issues",
   "private": true,
   "scripts": {
-    "test": "standard",
-    "fix": "standard --fix",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "standard",
+    "fix": "standard --fix"
   },
   "devDependencies": {
     "rollup": "^1.27.14",
